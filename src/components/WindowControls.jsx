@@ -4,9 +4,9 @@ const WindowControls = ({target}) => {
     const {closeWindow}=useWindowStore();
     return (
         <div id={"window-controls"}>
-            <div className={"close"} onClick={()=>closeWindow(target)}/>
-            <div className={"minimize"}/>
-            <div className={"maximize"}/>
+            <button type="button" aria-label="Close window" className={"close"} onClick={()=>closeWindow(target)}/>
+            <span aria-hidden="true" className={"minimize"}/>
+            <span aria-hidden="true" className={"maximize"}/>
         </div>
     )
 }
