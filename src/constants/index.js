@@ -130,28 +130,28 @@ const socials = [
     {
         id: 1,
         text: "Github",
-        icon: "/icons/github.svg",
+        icon: "public/icons/github.svg",
         bg: "#f4656b",
         link: "https://github.com/JavaScript-Mastery-Pro",
     },
     {
         id: 2,
         text: "Platform",
-        icon: "/icons/atom.svg",
+        icon: "public/icons/atom.svg",
         bg: "#4bcb63",
         link: "https://jsmastery.com/",
     },
     {
         id: 3,
         text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        icon: "public/icons/twitter.svg",
         bg: "#ff866b",
         link: "https://x.com/jsmasterypro",
     },
     {
         id: 4,
         text: "LinkedIn",
-        icon: "/icons/linkedin.svg",
+        icon: "public/icons/linkedin.svg",
         bg: "#05b6f6",
         link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
     },
@@ -261,7 +261,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
+                    imageUrl: "public/images/project-1.png",
                 },
                 {
                     id: 5,
@@ -314,7 +314,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
+                    imageUrl: "public/images/project-2.png",
                 },
                 {
                     id: 5,
@@ -367,7 +367,7 @@ const WORK_LOCATION = {
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "public/images/project-3.png",
                 },
                 {
                     id: 5,
@@ -397,7 +397,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "public/images/adrian.jpg",
         },
         {
             id: 2,
@@ -406,7 +406,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "public/images/adrian-2.jpg",
         },
         {
             id: 3,
@@ -415,7 +415,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "public/images/adrian-3.jpeg",
         },
         {
             id: 4,
@@ -425,7 +425,7 @@ const ABOUT_LOCATION = {
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "public/images/adrian.jpg",
             description: [
                 "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
                 "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
@@ -469,7 +469,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-10",
-            imageUrl: "/images/trash-1.png",
+            imageUrl: "public/images/trash-1.png",
         },
         {
             id: 2,
@@ -478,7 +478,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-40 left-80",
-            imageUrl: "/images/trash-2.png",
+            imageUrl: "public/images/trash-2.png",
         },
     ],
 };
